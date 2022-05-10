@@ -79,10 +79,10 @@ table, th, td{
   border: 1px solid black;
   border-collapse: collapse;
 }
-.center {
+/* .center {
   margin-left: 60px;
   margin-right: auto;
-}
+} */
 
 img {
   border: 2px solid #C0C0C0;
@@ -94,6 +94,7 @@ h2{
 }
 
 video {
+  width: 100%;
   max-width: 100%;
 }
 
