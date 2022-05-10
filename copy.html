@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Best Movies About The Internet/Web - Form</title>
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="media/favicon.ico">
+    </head>
+    <body>
+<header>
+    <h1>Best Movies About The &lt;Internet/Web&gt;</h1>
+    <nav id="mainmenu"><a href="index.html">Homepage</a> | <b>Form</b> </nav>
+    <div id="introduction">
+    <h2>Send your favourite movies</h2>
+<p>Do you have favourite movie in this topic? If yes, please fill the following form!</p>
+</div>
+</header>  
+<main>
+<!-- form-->
+<form action="mailto:test@elte.hu" method="post"
+      enctype="text/plain">
+      <fieldset>
+    <legend>Datasheet of movie</legend>
+   
+    <label for="ti"><strong>Title</strong></label><br>
+    <input type="text" name="title" size="50" id="ti"><br>
+   
+    <label for="imdb"><strong>IMDb webaddress:</strong></label><br>
+    <input type="url" name="imdb" size="50" id="imdb"><br>
+
+    <label for="story"><strong>Story shortly</strong></label><br>
+    <textarea name="story" id="story" cols="50" rows="10"
+    placeholder="No spoilers please!"
+    ></textarea>
+</fieldset>
+    <p>Rating</p>
+    <p>Your rating in a 1 to 5 scale<br>
+      <input type="radio" name="rating" value="1" id="r1">
+      <label for="r1">1 - unwatchable</label>
+     
+      <input type="radio" name="rating" value="2" id="r2">
+      <label for="r2">2</label>
+     
+      <input type="radio" name="rating" value="3" id="r3">
+      <label for="r3">3</label>
+
+      <input type="radio" name="rating" value="4" id="r4">
+      <label for="r4">4</label>
+
+      <input type="radio" name="rating" value="5" id="r5">
+      <label for="r5">5 - must watch</label>
+    </p>
+    <p>Personal info</p>
+    <label for=""><strong>Name</strong></label><br>
+   
+    <label for="email"><strong>E-mail address</strong></label><br>
+    <input type="email" name="email" size="50" id="email"><br>
+
+    <input type="checkbox" name="news" id="news" value="yes">
+    <label for="news">I'd like to subscribe to a newsletter</label>
+     
+    <p>Send</p>
+    <!-- submit button-->
+    <input type="submit" value="Submit">
+    <!-- reset button -->
+    <input type="reset" value="Reset">
+
+   
+</form>
+<!-- form end-->
+
+<p>These movies are already on my list:</p>
+    <nav>
+        <ol>
+            <li><a href="index.html#socialnetwork">The Social Network</a></li>
+            <li><a href="index.html#her">Her</a></li>
+            <li><a href="index.html#deepweb">Deep Web</a></li>
+        </ol>
+    </nav>  
+</main>
+<footer>
+<address>
+<p>Author: John Smith (<a href="mailto:johnsmith@mailinator.com)">johnsmith@mailinator.com)</a><br>
+H-1117 Budapest, Noname street 17</p>
+</address>
+
+</footer>
+
+    </body>
+</html>
