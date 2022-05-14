@@ -2,6 +2,16 @@ nav{
   display: flex;
   justify-content: space-evenly;
 }
+form {
+  text-align: center;
+}
+
+#review{
+  width:60%;
+  height: 10em; 
+  line-height: 1.5em ;
+  resize: none;
+}
 
 ul {
   list-style-type: none;
@@ -97,6 +107,8 @@ video {
   width: 100%;
   max-width: 100%;
 }
+
+
 
 /* a:visited {
   color:lightpink;
