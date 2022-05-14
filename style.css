@@ -5,6 +5,10 @@ nav{
 form {
   text-align: center;
 }
+.radios{
+  padding-left: 45%;
+  text-align: left;
+}
 
 #review{
   width:60%;
