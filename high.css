@@ -1,3 +1,5 @@
+
+
 nav{
   display: flex;
   justify-content: space-evenly;
@@ -152,7 +154,9 @@ details,summary{
   color: yellow;
 }
 
-
+meter::-webkit-meter-optimum-value {
+  background: yellow; 
+}
 
 
 /* a:visited {

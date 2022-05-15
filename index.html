@@ -33,12 +33,6 @@
 					<button id="toggle" type="button" onclick="toggleTheme()">Change Theme</button>
 				</div> 
 			</div> 
-			<div class="row">
-				<div class="col-12">
-
-
-				</div> <!-- col -->
-			</div>
 			<div id="introduction">
 				<article>
 					<div class="container">
@@ -54,7 +48,7 @@
 									games of all time by player count.
 								</p>
 								<figure class="mt-5">	
-									<a href="media/apexleg.jpg"><img src="media/apexleg.jpg" alt="Season 1 loading screen " class="mx-auto d-block img-fluid" width="450" height="250" ></a>
+									<a href="media/apexleg.jpg"><img src="media/apexleg.jpg" alt="Season 1 loading screen" class="mx-auto d-block img-fluid" width="450" height="250" ></a>
 									<figcaption style=text-align:center;>The photo of loading screen in <cite>Apex Legends </cite> (Season 1)</figcaption>
 								</figure>
 							</div>
@@ -65,7 +59,7 @@
 			<article>
 				<div class="container">
 					<div class="row">
-						<h2 id="difference in battle royale" class="mt-5 mb-3">How is it different from Battle Royale games? </h2>
+						<h2 id="br" class="mt-5 mb-3">How is it different from Battle Royale games? </h2>
 						<div style="text-align:justify; text-justify:inter-word;" class="col-xs-4">
 							<p>
 								Apex Legends stands out from other Battle Royale games by including human and robot heroes known as “ Legends " - 
@@ -87,19 +81,22 @@
             <article>
 				<div class="container">
 					<div class="row">
-						<h2 class= "mt-5 mb-4" id="Apex gameplay">The glimpse of Apex Legends gameplay </h2>
-						<div class="col-12">
+						<h2 class= "mt-5 mb-4" id="gameplay">The glimpse of Apex Legends gameplay </h2>
+						
 							<section>
-								<video controls poster="media/pictureFromVideo.jpg">
-									<source  src="media/gameplay.mp4" type="video/mp4">
-									<track src="media/subtitles.vtt" kind="subtitles" srclang="en" label="English">
-									<p>Your browser does not support HTML5 video</p>
-									<p><a href="media/gameplay.mp4">You can download the video ("Apex Gameplay") in mp4 format.</a></p>
-								</video>
+								<div class="col-12">
+									<video controls poster="media/pictureFromVideo.jpg">
+										<source src="media/gameplay.mp4" type="video/mp4">
+										<track label="English" kind="subtitles" srclang="en" src="media/subtitles.vtt" default>
+										<button id="subtitles" type="button" data-state="subtitles">CC</button>
+										<p>Your browser does not support HTML5 video</p>
+										<p><a href="media/gameplay.mp4">You can download the video ("Apex Gameplay") in mp4 format.</a></p>					
+									</video>
+								</div>
 							</section>
-						</div>
+						
 					</div>
-				</div> <!-- row -->
+				</div> 
 			</article>
 			<article>
 				<div class="container">
@@ -118,8 +115,8 @@
 										</details>
 									</caption>
 									<tr class="legendata">
-										<th scope="row"> <h4><b> Aggregator</b></h4></th>
-										<th class="legendata"> <h4><b> Score</b></h4></th>
+										<th scope="row"> <b> Aggregator</b></th>
+										<th class="legendata"> <b> Score</b></th>
 									</tr>
 									<tr class="legendata">
 										<th scope="row" rowspan="4"><cite>Metacritic</cite></th>
@@ -178,15 +175,10 @@
 			</article>
 			<div class="container">
 				<h4 class="mt-3">Sources</h4>
-						<div class="links">
-							<a href=https://en.wikipedia.org/wiki/Apex_Legends target="_blank">Wikipedia.com</a><br>
-						
-				
-						<a href="https://gamerant.com/apex-legends-character-story/" target="_blank">gamerant.com</a><br>
-						</div>
-			
-						
-			
+				<div class="links">
+					<a href=https://en.wikipedia.org/wiki/Apex_Legends target="_blank">Wikipedia.com</a><br>
+					<a href="https://gamerant.com/apex-legends-character-story/" target="_blank">gamerant.com</a><br>
+				</div>
 			</div>
 		</main>
 		<footer class="text-center mt-3">

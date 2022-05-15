@@ -18,7 +18,7 @@
                 <div class="col-12">
                     <nav id="skip">
                         <h2 class="visually-hidden">Jump to content</h2>
-                        <a href="#content" class="visually-hidden-focusable">Jump to content</a>
+                        <a href="#introduction" class="visually-hidden-focusable">Jump to content</a>
                     </nav>
                 </div>
             </div>
@@ -36,9 +36,9 @@
                         <button id="toggle" type="button" onclick="toggleTheme()">Change Theme</button>
                     </div> 
                 </div>
-                <div class="mt-5" id="introduction">
+                <div class="my-5" id="introduction">
                     <h3 class="formtext">Send your information regarding the game that you have played most recently</h3>
-                    <p class="formtext">Have you ever played any type of game on PC, Console, etc? If yes, please fill the following form!</p>
+                    <p class="formtext mt-3">Have you ever played any type of game on PC, Console, etc? If yes, please fill the following form!</p>
                 </div>
             </header> 
                 <form action="mailto:munkhtenger.aldar@gmail.com" method="post"
@@ -55,7 +55,7 @@
                         placeholder="Please write about the overall experience of the game!"
                         ></textarea>
                     </fieldset>
-                    <h4>Rating</h4>
+                    <h4 class="mt-4">Rating</h4>
                     <p>Your rating in a 1 to 5 scale<br>
 
                     <div class="radios">
@@ -88,15 +88,15 @@
                     
                       
                     </p>
-                    <h3 class="mb-4">Personal information</h3>
+                    <h3 class="mb-4 mt-5">Personal information</h3>
                     <label for="name"><strong>Name</strong></label><br>
-                    <input class="mb-4 mt-2" type="name" name="Name of the person who filled this" style="width:60%;" id="name"><br>
+                    <input class="mb-4 mt-2" type="name" name="Name of the person who filled this" required placeholder="John Doe" style="width:60%;" id="name"><br>
                    
                     <label for="email"><strong>E-mail address</strong></label><br>
                     <input class="mb-4 mt-2" type="email" name="Email" required placeholder="example@email.com" style="width:60%;" id="email"><br>
                 
                     <input type="checkbox" name="news" id="news" value="yes">
-                    <label class="mb-4" for="news">I'd like to get information about the featured games weekly</label>
+                    <label class="mb-4 mt-4" for="news">I'd like to get information about the featured games weekly</label>
                      <p></p>
                     <input type="submit" value="Submit">
                     <input type="reset" value="Reset">  
