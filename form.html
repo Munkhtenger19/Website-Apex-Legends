@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div class="container-fluid border border-dark border-2" >
+	<div class="container-fluid" >
         <main id="content">
             <div class="row">
                 <div class="col-12">
@@ -28,16 +28,17 @@
                         <h1 class="text-center my-3">Apex Legends </h1>
                         <nav>
                             <ul class="nav" >
-                                <li class="nav-item"><a class="nav-link" href="index.html" style="color:white">General</a></li>
-                                <li class="nav-item"><a class="nav-link" href="legends.html" style="color:white">Legends</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html" >General</a></li>
+                                <li class="nav-item"><a class="nav-link" href="legends.html" >Legends</a></li>
                                 <li class="nav-item"><a class="nav-link active" href="form.html" style="color:black">Form</a></li>
                             </ul>
                         </nav>
+                        <button id="toggle" type="button" onclick="toggleTheme()">Change Theme</button>
                     </div> 
                 </div>
                 <div class="mt-5" id="introduction">
-                    <h3>Send your information regarding the game that you have played most recently</h3>
-                    <p class="mt-4 mb-4">Have you ever played any type of game on PC, Console, etc? If yes, please fill the following form!</p>
+                    <h3 class="formtext">Send your information regarding the game that you have played most recently</h3>
+                    <p class="formtext">Have you ever played any type of game on PC, Console, etc? If yes, please fill the following form!</p>
                 </div>
             </header> 
                 <form action="mailto:munkhtenger.aldar@gmail.com" method="post"
@@ -92,7 +93,7 @@
                     <input class="mb-4 mt-2" type="name" name="Name of the person who filled this" style="width:60%;" id="name"><br>
                    
                     <label for="email"><strong>E-mail address</strong></label><br>
-                    <input class="mb-4 mt-2" type="email" name="Email" style="width:60%;" id="email"><br>
+                    <input class="mb-4 mt-2" type="email" name="Email" required placeholder="example@email.com" style="width:60%;" id="email"><br>
                 
                     <input type="checkbox" name="news" id="news" value="yes">
                     <label class="mb-4" for="news">I'd like to get information about the featured games weekly</label>
@@ -105,13 +106,14 @@
 			<div class="row">
 				<div class="col-12">
 					<address>
-						<p class="text-center"><b>Author: Munkhtenger Munkh-Aldar </b>( <a style=color:black href="mailto:munkhtenger.aldar@gmail.com)">munkhtenger.aldar@gmail.com </a>)<br>
+						<p class="ftext"><b>Author: Munkhtenger Munkh-Aldar </b>( <a class="ftext" href="mailto:munkhtenger.aldar@gmail.com)">munkhtenger.aldar@gmail.com </a>)<br>
 							<b>1091 Budapest, Ulloi ut. 95</b></p>
 					</address>
 				</div>
 			</div>
 		</footer>
 	</div>
+    <script src="script.js"></script>
 </body>
 
 </html>

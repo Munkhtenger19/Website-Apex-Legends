@@ -26,11 +26,12 @@
 					<!-- <nav class="navbar navbar-light justify-content-center"> -->
 					<nav >
 						<ul class="nav" >
-							<li class="nav-item"><a class="nav-link" href="index.html" style="color:white">General</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.html" >General</a></li>
 							<li class="nav-item"><a class="nav-link active" href="legends.html" style="color:black">Legends</a></li>
-							<li class="nav-item"><a class="nav-link" href="form.html" style="color:white">Form</a></li>
+							<li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
 						</ul>
 					</nav>
+					<button id="toggle" type="button" onclick="toggleTheme()">Change Theme</button>
 				</div> 
 			</div> 
 			<div class="row">
@@ -49,7 +50,7 @@
 								</cite></p>
 								<p class="text-end">— Kuben Blisk throughout the opening cinematic</p>
 								<figure class="mt-5">	
-									<img src="media/legends.jpg" alt="Picture of Legends" class="mx-auto d-block img-fluid" width="600" height="400" >
+									<a href="media/legends.jpg"><img src="media/legends.jpg" alt="Picture of Legends" class="mx-auto d-block img-fluid" width="600" height="400" ></a>
 									<figcaption style=text-align:center;>Picture of Legends (Not all of them)</figcaption>
 								</figure>
 							</div>
@@ -88,33 +89,33 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Insider Knowledge</td>
-											<td>Grappling Hook</td>
-											<td>Zipline Gun</td>
+											<td class="legendata">Insider Knowledge</td>
+											<td class="legendata">Grappling Hook</td>
+											<td class="legendata">Zipline Gun</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Scan a Survey Beacon to reveal ring location of next zone 
+											<td class="legendata">Scan a Survey Beacon to reveal ring location of next zone 
 												and to reduce the cooldown of Zipline Gun.</td>
-											<td>Pathfinder shoots grapple to get to out-of-reach places quickly. 
+											<td class="legendata">Pathfinder shoots grapple to get to out-of-reach places quickly. 
 												The hook will attach the first solid object and can be attach to
 												another player.</td>
-											<td>Pathfinder creates a zipline for everyone to use.</td>
+											<td class="legendata">Pathfinder creates a zipline for everyone to use.</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>None</td>
-											<td>10-30 seconds</td>
-											<td>90 seconds</td>
+											<td class="legendata">None</td>
+											<td class="legendata">10-30 seconds</td>
+											<td class="legendata">90 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -138,38 +139,38 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Voices from the Void</td>
-											<td>Into the Void</td>
-											<td>Dimensional Rift</td>
+											<td class="legendata">Voices from the Void</td>
+											<td class="legendata">Into the Void</td>
+											<td class="legendata">Dimensional Rift</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Wraith can heard voices which warns you when danger approaches.
+											<td class="legendata">Wraith can heard voices which warns you when danger approaches.
 												The warn triggers when an enemy is Aiming on Wraith, or 
 												encounters any nearby Traps.</td>
-											<td>Wraith reposition quickly through the safety of the void space, 
+											<td class="legendata">Wraith reposition quickly through the safety of the void space, 
 												grants invulnerability and invincibility while leaving bright trails
 												in the path. While the skill is activating, the screen will turn grey
 												and Wraith cannot see other players during the skill.</td>
-											<td>Wraith links two locations with portals for 60 seconds, 
+											<td class="legendata">Wraith links two locations with portals for 60 seconds, 
 												allowing everyone to traverse between in a quick succession. 
 												Wraith cannot use weapons or ziplines but is able to activate 
 												Into The Void while creating the portal's path.</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>None</td>
-											<td>25 seconds</td>
-											<td>210 seconds</td>
+											<td class="legendata">None</td>
+											<td class="legendata">25 seconds</td>
+											<td class="legendata">210 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -193,34 +194,34 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Double Time</td>
-											<td>Smoke Launcher</td>
-											<td>Rolling Thunder</td>
+											<td class="legendata">Double Time</td>
+											<td class="legendata">Smoke Launcher</td>
+											<td class="legendata">Rolling Thunder</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Activated upon getting shot while sprinting, 
+											<td class="legendata">Activated upon getting shot while sprinting, 
 												Bangalore will move 25% faster for a brief time.</td>
-											<td>Bangalore fires a high-velocity smoke canister that explodes 
+											<td class="legendata">Bangalore fires a high-velocity smoke canister that explodes 
 												into a smoke wall on impact. The launcher has maximum of two charges, 
 												The smoke canister will dealt small damage to the enemy on direct contact.</td>
-											<td>Bangalore calls in an artillery strike that slowly creeps across the landscape. 
+											<td class="legendata">Bangalore calls in an artillery strike that slowly creeps across the landscape. 
 												The artillery can hit both allies and enemies.</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>None</td>
-											<td>33 seconds</td>
-											<td>180 seconds</td>
+											<td class="legendata">None</td>
+											<td class="legendata">33 seconds</td>
+											<td class="legendata">180 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -244,37 +245,37 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Tracker</td>
-											<td>Eye of the Allfather</td>
-											<td>Beast of the Hunt</td>
+											<td class="legendata">Tracker</td>
+											<td class="legendata">Eye of the Allfather</td>
+											<td class="legendata">Beast of the Hunt</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Bloodhound can see tracks left behind by enemies.</td>
-											<td>Bloodhound briefly gain static hidden enemy visions,
+											<td class="legendata">Bloodhound can see tracks left behind by enemies.</td>
+											<td class="legendata">Bloodhound briefly gain static hidden enemy visions,
 												traps, and clues throughout structures in front of you. 
 												The highlighted vision can be seen by every allies, 
 												Visual effect generated from the skill also can be 
 												seen by everyone.</td>
-											<td>Enhances his senses, allows Bloodhound to move 30% faster
+											<td class="legendata">Enhances his senses, allows Bloodhound to move 30% faster
 												and highlighting enemies movement & tracks in red by real-time. 
 												While active, Bloodhound can see through areas covered by Bangalore's 
 												Smoke Launcher</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>None</td>
-											<td>25 seconds</td>
-											<td>180 seconds</td>
+											<td class="legendata">None</td>
+											<td class="legendata">25 seconds</td>
+											<td class="legendata">180 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -297,35 +298,35 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Gun Shield & Fortified</td>
-											<td>Dome of Protection</td>
-											<td>Defensive Bombardment</td>
+											<td class="legendata">Gun Shield & Fortified</td>
+											<td class="legendata">Dome of Protection</td>
+											<td class="legendata">Defensive Bombardment</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Gibraltar aiming down sights deploys a gun shield that blocks incoming fire.</td>
-											<td>Gibraltar throw down a dome-shield that blocks attacks for 12 seconds. 
+											<td class="legendata">Gibraltar aiming down sights deploys a gun shield that blocks incoming fire.</td>
+											<td class="legendata">Gibraltar throw down a dome-shield that blocks attacks for 12 seconds. 
 												The dome will prevent any incoming damage while also prevents outgoing damage 
 												from players shooting from inside the dome. Gibraltar also revives allies 33% 
 												faster while inside the dome.</td>
-											<td>Gibraltar calls in a concentrated mortar strike on a marked position. 
+											<td class="legendata">Gibraltar calls in a concentrated mortar strike on a marked position. 
 												Exploded as soon the strike hits ground, affected players will recieve Shellshock 
 												concussions.</td>
 										</tr>
 										<tr>
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>9 seconds</td>
-											<td>30 seconds</td>
-											<td>270 seconds</td>
+											<td class="legendata">9 seconds</td>
+											<td class="legendata">30 seconds</td>
+											<td class="legendata">270 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -348,31 +349,31 @@
 							</figure>
 							<div style="overflow-x:auto;">
 								<aside>
-									<table class="table table-bordered" style="color:white">
-										<tr>
+									<table class="legendstable">
+										<tr class="legendata">
 											<td scope="row"> </td>
-											<th><h5>Passive</h5> </th>
-											<th><h5>Tactical</h5> </th>
-											<th><h5>Ultimate</h5> </th>
+											<th class="legendata"><h5>Passive</h5> </th>
+											<th class="legendata"><h5>Tactical</h5> </th>
+											<th class="legendata"><h5>Ultimate</h5> </th>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability name</h5></th>
-											<td>Combat Medic</td>
-											<td>D.O.C. Heal Drone</td>
-											<td>Care Package</td>
+											<td class="legendata">Combat Medic</td>
+											<td class="legendata">D.O.C. Heal Drone</td>
+											<td class="legendata">Care Package</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability description</h5></th>
-											<td>Deploy D.O.C to revive teammates, leaving you to free to move and defend.</td>
-											<td>Lifeline calls a Drone of Compassion to automatically heal
+											<td class="legendata">Deploy D.O.C to revive teammates, leaving you to free to move and defend.</td>
+											<td class="legendata">Lifeline calls a Drone of Compassion to automatically heal
 												all nearby teammates over time.</td>
-											<td>Calls in a drop pod full of high-quality defensive gear.</td>
+											<td class="legendata">Calls in a drop pod full of high-quality defensive gear.</td>
 										</tr>
-										<tr>
+										<tr class="legendata">
 											<th scope="row"><h5>Ability cooldown</h5></th>
-											<td>None</td>
-											<td>45 seconds</td>
-											<td>300 seconds</td>
+											<td class="legendata">None</td>
+											<td class="legendata">45 seconds</td>
+											<td class="legendata">300 seconds</td>
 										</tr>
 									</table>
 								</aside>
@@ -399,7 +400,18 @@
 				</div>
 			</div>
 		</main>
+		<footer class="text-center mt-3">
+			<div class="row">
+				<div class="col-12">
+					<address>
+						<p class="ftext"><b>Author: Munkhtenger Munkh-Aldar </b>( <a class="ftext" href="mailto:munkhtenger.aldar@gmail.com)">munkhtenger.aldar@gmail.com </a>)<br>
+							<b>1091 Budapest, Ulloi ut. 95</b></p>
+					</address>
+				</div>
+			</div>
+		</footer>
 	</div>
+	<script src="script.js"></script>
 </body>
 
 </html>

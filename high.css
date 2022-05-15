@@ -14,27 +14,26 @@ form {
 .formtext{
   text-align: center;
 }
+
 .legendstable{
-  border: 1px solid white;
+  border: 1px solid yellow;
   margin: 0 auto; 
   width: 95%;
 }
-
 .legendsrating{
-
-  border: 1px solid white;
+  border: 1px solid yellow;
   margin: 0 auto; 
   width: 50%;
 }
 .legendata{
-  border: 1px solid white;
+  border: 1px solid yellow;
   margin: 0 auto; 
 }
 
 #toggle{
-  border: 2px solid  orangered ;
+  border: 2px solid yellow ;
   background-color:black;
-  color: orangered;
+  color: yellow;
   float:right;
 }
 
@@ -64,18 +63,18 @@ li a{
 }
 
 a:visited {
-  color:lightpink;
+  color:yellow;
   background-color: transparent;
   text-decoration: none;
   text-decoration: underline;
 }
   
 li a:hover {
-  background-color:darkorange;
+  background-color:yellow;
 }
 
 .active {
-  background-color: orangered;
+  background-color: yellow;
 }
 
 nav#skip a {
@@ -90,12 +89,12 @@ nav#skip a:focus {
 main{
   margin: auto;
   background-color: black;
-  color:white;
+  color:yellow;
   width: 88%;
   padding: 40px;
   }
 body{
-  background-image: url(media/orange.png);
+  background-image: url(media/black.png);
   background-size: cover;
 }
 cite{
@@ -108,18 +107,18 @@ td{
   text-justify: inter-word;
   width:auto;
   max-width:200px;
-  border: 1px solid white;
 }
 
 table{
   margin-top: 20px;
   border-style: ridge;
   border-width: 150px;
+  color: yellow;
 }
 
 table, th, td{
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid yellow;
   border-collapse: collapse;
 }
 /* .center {
@@ -128,7 +127,7 @@ table, th, td{
 } */
 
 img {
-  border: 2px solid #C0C0C0;
+  border: 2px solid yellow;
   padding: 3px;
 }
 
@@ -142,8 +141,19 @@ video {
 }
 
 .ftext{
-  color: black;
+  color: yellow;
 }
+
+.details{
+  color: yellow;
+}
+
+details,summary{
+  color: yellow;
+}
+
+
+
 
 /* a:visited {
   color:lightpink;
