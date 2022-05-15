@@ -80,12 +80,14 @@ li a:hover {
 
 nav#skip a {
   position: absolute;
-  left: -9999px
+  left: -9999px;
+
 }
 
 nav#skip a:focus {
   position: static;
-  background-color: white;
+  color: black;
+  background-color: orangered;
 }
 main{
   margin: auto;
