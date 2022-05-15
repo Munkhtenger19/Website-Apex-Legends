@@ -2,6 +2,10 @@ body, p, main{
   font-family: Arial;
 }
 
+body, p, main,h1, h2, h3, h4, h5, h6,table{
+  font-size: 105%;
+}
+
 .controls button[data-state="subtitles"] {
   height:85%;
   text-indent:0;
@@ -21,6 +25,7 @@ nav{
   display: flex;
   justify-content: space-evenly;
 }
+
 form {
   text-align: center;
 }
@@ -81,26 +86,18 @@ li a{
   padding: 14px 16px;
   text-decoration: underline;
 }
-
-a:visited {
-  color:lightpink;
-  background-color: transparent;
-  text-decoration: none;
-  text-decoration: underline;
-}
   
 li a:hover {
-  background-color:darkorange;
+  background-color: rgb(252, 29, 29)
 }
 
 .active {
-  background-color: orangered;
+  background-color: gold;
 }
 
 nav#skip a {
   position: absolute;
   left: -9999px;
-
 }
 
 nav#skip a:focus {
@@ -143,10 +140,6 @@ table, th, td{
   border: 1px solid white;
   border-collapse: collapse;
 }
-/* .center {
-  margin-left: 60px;
-  margin-right: auto;
-} */
 
 img {
   border: 2px solid #C0C0C0;
@@ -169,22 +162,3 @@ video {
 meter::-webkit-meter-optimum-value {
   background: red; 
 }
-
-/* a:visited {
-  color:lightpink;
-  background-color: transparent;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-} */
